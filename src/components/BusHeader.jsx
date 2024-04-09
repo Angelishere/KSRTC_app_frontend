@@ -12,19 +12,19 @@ const BusHeader = () => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">View Bus</a>
+                                <a class="nav-link" href="/view">View Bus</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Add Bus</a>
+                                <a class="nav-link" href="/add">Add Bus</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Search Bus</a>
+                                <a class="nav-link" href="/search">Search Bus</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Delete Bus</a>
+                                <a class="nav-link" href="/delete">Delete Bus</a>
                             </li>
 
                         </ul>
