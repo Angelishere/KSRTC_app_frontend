@@ -3,7 +3,7 @@ import BusHeader from './BusHeader'
 
 const ViewBus = () => {
     return (
-        <div>
+        <div style={{backgroundColor: '#ffffcc'}}>
             <BusHeader />
 
             <div className="container">

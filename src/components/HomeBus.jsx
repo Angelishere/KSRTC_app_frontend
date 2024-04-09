@@ -3,7 +3,7 @@ import BusHeader from './BusHeader'
 
 const HomeBus = () => {
     return (
-        <div>
+        <div style={{backgroundColor: '#ffffcc'}}>
             <BusHeader />
             <div className="container">
                 <div className="row">
@@ -49,7 +49,7 @@ const HomeBus = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Want to know more about us?</h5>
                                         <p class="card-text">Kerala State Road Transport Corporation(KSRTC) is a state-owned road transport corporation in the Indian state of Kerala. It is one of the country's oldest state-run public bus transport services.</p>
-                                        <a href="https://en.wikipedia.org/wiki/Kerala_State_Road_Transport_Corporation" class="btn btn-primary">click here</a>
+                                        <a href="https://en.wikipedia.org/wiki/Kerala_State_Road_Transport_Corporation" class="btn btn-danger">click here</a>
                                     </div>
 
                                 </div>
